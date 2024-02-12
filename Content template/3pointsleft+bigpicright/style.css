@@ -1,0 +1,130 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Prompt', sans-serif;
+}
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    /* background: lightcoral; */
+    display: flex;
+}
+
+.left-side{
+    width: 50%;
+    min-height: 100vh;
+    /* background: lightblue; */
+}
+
+.right-side{
+    width: 50%;
+    min-height: 100vh;
+    /* background: lightgreen; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.right-side .img{
+    background: url("../images/kl2.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 95%;
+    height: 90%;
+    border-radius: 20px;
+}
+
+.top{
+    width: 80%;
+    margin: 0 auto;
+    height: 50vh;
+    /* background: lightpink; */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-content h1{
+    font-size: 2.75rem;
+}
+
+.top-content p{
+    font-size: 1.25rem;
+}
+
+.top-content button{
+    margin-top: 3rem;
+    padding: 1rem 3rem;
+    border-radius: 50px;
+    color: black;
+    background: white;
+    font-weight: 700;
+}
+
+.bottom{
+    width: 100%;
+    height: 50vh;
+    /* background: lightseagreen; */
+}
+
+.bottom-content{
+    width: 80%;
+    min-height: 50vh;
+    /* background: lightcoral; */
+    margin: 0 auto;
+    display: flex;
+}
+
+.bottom-left-side{
+    width: 50%;
+    height: 50vh;
+    /* background: lightskyblue; */
+}
+.bottom-right-side{
+    width: 50%;
+    height: 50vh;
+    /* background: lightgoldenrodyellow; */
+}
+
+.btl-content img{
+    width: 4rem;
+}
+
+.btl-content{
+    padding: 2rem;
+}
+
+.btl-content h1{
+    font-size: 1.25rem;
+    margin-top: 2rem;
+}
+
+.btl-content p{
+    font-size: 1rem;
+    margin-bottom: 2rem;
+}
+
+.divider {
+    position: absolute;
+    z-index: -1;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.divider svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 203px;
+}
+
+.divider .shape-fill {
+    fill: #70B821;
+}

@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Prompt', sans-serif;
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+}
+
+.navbar{
+    position: absolute;
+    
+}
+
+.logo img{
+    width: 3rem;
+    margin-left: 6rem;
+    margin-top: 2rem;
+}
+
+.container{
+    width: 90%;
+    min-height: 100vh;
+    /* background: coral; */
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.top-row{
+    width: 100%;
+    min-height: 50vh;
+    /* background: lightgreen; */
+
+    text-align: center;
+    
+
+    display: flex;
+}
+
+.top-row .left-box{
+    width: 50%;
+    /* background: lightcyan; */
+    z-index: 2;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-row .left-box h1{
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.top-row .right-box{
+    width: 50%;
+    /* background: lightseagreen; */
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-row .right-box p{
+    font-size: 1.25rem;
+}
+
+
+.top-row .right-box button{
+    margin-top: 2rem;
+    padding: 1rem 3rem;
+    font-size: 1rem;
+}
+
+.bottom-row{
+
+    /* background: red; */
+    width: 100%;
+    min-height: 80vh;
+    background: url(./images/newyork.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+}

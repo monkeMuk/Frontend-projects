@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito-sans', sans-serif;
+}
+
+.background-img{
+    
+    
+}
+
+.navbar{
+    position: absolute; 
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    
+}
+
+.navbar p{
+    color: darkblue;
+    margin-right: 2rem;
+    font-size: 1.25rem;
+    cursor: pointer;
+    transition: color 0.5s ease;
+    padding: 2rem;
+}
+
+.navbar p:hover{
+    color: white;
+    background: black;
+    
+    border-radius: 5px;
+}
+
+.navbar-links{
+    display: flex;
+    gap: 1rem;
+}
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background: url(./images/SQ-A350-1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    ;
+
+    
+}
+
+.content{
+    position: absolute;
+    left: 10rem;
+    top: 22rem;
+}
+
+.content h1{
+    font-weight: 900;
+    font-size: 4.5rem;
+}
+
+.content p{
+    font-weight: 300;
+    font-size: 1.5rem;
+}
+
+.btn{
+    margin-top: 4rem;
+}
+
+.divider{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.divider svg {
+    position: relative;
+    display: block;
+    width: calc(132% + 1.3px);
+    height: 183px;
+}
+
+.divider .shape-fill {
+    fill: #4A90E2;
+}
+
+.btn{
+    display: flex;
+    gap: 1rem;
+}
+
+.btn button{
+    cursor: pointer;
+    padding: 1rem 2rem;
+    outline: none;
+    border: none;
+    background: transparent;
+    font-size: 1rem;
+    font-weight: 600;
+    
+    transition: all 0.5s ease;
+    
+}
+
+.btn button:hover{
+    border-radius: 5px;
+    background: linear-gradient(to bottom, #4A90E2, #6493bf);
+}
+

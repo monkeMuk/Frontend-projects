@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito Sans', sans-serif;
+    overflow-x: hidden;
+    
+}
+
+
+
+.hero-container{
+    display: flex;
+    
+    width: 80vw;
+    height: 60vh;
+
+    margin: 10%;
+
+}
+
+.hero-container .text{
+    /* background:  #FFD700; */
+    color: #000080;
+    width: 40%;
+    height: 100%;
+    z-index: 2;
+    
+}
+
+.hero-container .img{
+    background: lightcoral;
+    width:60%;
+    height: 100%;
+    z-index: 5;
+
+    background-image: url(./images/A350-1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+
+
+.text h1{
+    font-weight: 700;
+    font-size: 4rem;
+    padding-top: 8rem;
+    color: black;
+    
+}
+
+#subtext{
+    font-weight: 300;
+    font-size: 1.5rem;
+}
+
+.btn-container{
+    margin-top: 3rem;
+    
+}
+
+button{
+    font-size: 1.5rem;
+    padding: 8px 20px;
+    margin-right: 1rem;
+    background: white;
+    color: black;
+    transition: all 0.3s ease;
+    border-radius: 5px;
+    
+}
+
+button:hover{
+    background: #000080;
+    color: white;
+    border: 0;
+    outline: 0;
+}
+
+.spacer{
+    aspect-ratio: 900/600;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.divider2{
+    background-image: url(./images/divider2.svg);
+    margin-top: -60rem;
+}
+
+section{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 400px;
+
+    padding: 100px 20vw;
+    color: white;
+}
+
+.blue{
+    background: #0E1DAE;
+    text-align: center;
+}
+
+.blue h1{
+    font-weight: 700;
+    font-size: 4rem;
+    
+}
+
+.blue p{
+    font-weight: 300;
+    font-size: 1.5rem;
+    margin-bottom: 6rem;
+}
+
+.card-gallery{
+    min-height: 500px;
+    width: 80vw;
+    background: lightcoral;
+}
+
+.card{
+    
+    border: black solid 2px;
+}
+
+.ny img{
+    width: 250px;
+    height: 100px;
+}

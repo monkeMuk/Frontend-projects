@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito Sans', sans-serif;
+    
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.container{
+    position: relative;
+    display: flex;
+    z-index: 1;
+    width: 100vw;
+    height: 60vh;
+
+    margin: 10%
+
+}
+
+.container .text{
+    background:  #FFD700;
+    color: #000080;
+    width: 25%;
+    height: 100%;
+    z-index: 2;
+}
+
+.container .img{
+    background: lightcoral;
+    width: 55%;
+    height: 100%;
+    z-index: 5;
+
+    background-image: url(./images/A350-1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+h1{
+    font-weight: 700;
+    font-size: 4rem;
+}
+
+.spacer{
+    aspect-ratio: 900/600;
+    width: 20%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.divider{
+    background-image: url(./images/layered-waves-haikei.png);
+    z-index: 1;
+}

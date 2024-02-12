@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Prompt', sans-serif;
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+}
+
+.navbar{
+    position: absolute;
+    
+}
+
+.logo img{
+    width: 3rem;
+    margin-left: 6rem;
+    margin-top: 2rem;
+}
+
+.container{
+    width: 90%;
+    min-height: 100vh;
+
+    /* background: coral; */
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.column-1{
+    flex: 1;
+    /* background: lightcyan; */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.column-1 .text{
+    padding: 3rem;
+}
+
+.column-1 .text h1{
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.column-1 .text button{
+    margin-top: 5rem;
+    padding: 1rem 3rem;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.column-2{
+    flex: 1;
+    /* background: lightgreen; */
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.column-2 .img{
+    width: 80%;
+    height: 70%;
+    background: url(./images/newyork.jpg);
+    background-position: center;
+    background-size: cover;
+
+    
+}
+.column-3{
+    flex: 1;
+    /* background: lightskyblue; */
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.column-3 .text2{
+    width: 60%;
+}
+
+.column-3 .text2 p{
+    margin-bottom: 5rem;
+    font-size: 1.25rem;
+}
+
